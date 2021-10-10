@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/application.css">
+    <title>Mr Coffee</title>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <!-- Pop Up -->
+    <div class="popup" id="messagepopup">
+        <div class="content">
+             <div class="popupcontent">
+                <img class="popupimg" src="assets/full_logo_dark.png" alt="Mr Coffee Logo">
+                <div class="popupheader">
+                    <h1>MERCI</h1>
+                    <h2>Votre message a bien été envoyé !</h2>
+                </div>
+             </div>
+             <br>
+             <br>
+             <div></div>
+             <p class="popuptext">Nous essaierons d’y répondre au mieux dans les plus brefs</p>
+             <p class="popuptext">délais. À bientot chez Mr.Coffee</p>
+            <br><br>
+            <div class="popupbutton">
+                <button id="close">FERMER</button>
+            </div>
+        </div>
+    </div>
+    <header>
+        <!-- Navbar -->
+        <nav class="nav-header">
+            <img class ="navimg" src="assets/full_logo_white.png" alt="Mr Coffee logo">
+            <ul>
+                <li><a href="/index.html">Accueil</a></li>
+                <li><a href="/about.html">Qui sommes-nous?</a></li>
+                <li><a href="/contact.html">Nous contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Logo -->
+        <img class="logo" src="assets/logo_mrcoffee.png" alt="Mr Coffee Logo">
+        <h1 class="contacttext">Dites nous tout !</h1>
+        <br>
+
+        <!-- Contact Form  -->
+        <div class="contact-form">
+            <form action="">
+                <label for="name">Nom *</label>
+                <br>
+                <input type="text" class="textboxes" id="name" required>
+                <br>
+                <label for="prenom">Prenom *</label>
+                <br>
+                <input type="text" class="textboxes" id="prenom" required>
+                <br>
+                <label for="telephone">Telephone </label>
+                <br>
+                <input type="text" class="textboxes" id="telephone">
+                <br>
+                <label for="email">Addresse mail *</label>
+                <br>
+                <input type="text" class="textboxes" id="email" required>
+                <br>
+                <label for="message">Message *</label>
+                <br>
+                <textarea class="textboxes" id="message" placeholder="Tapez votre message ici"></textarea>
+                <br>
+                <br>
+                <div class="divbtn">
+                    <button type="submit" id="submitbtn">ENVOYER</button>
+                </div>
+                <br>
+                <p id="errormsg"></p>
+            </form>
+        </div>
+        <br>
+        <h1 class="contacttext">On vous attend !</h1>
+        <br>
+        <br>
+        <!-- Contact -->
+        <div class="contact">
+           <h4>Mr.Coffee</h4>
+           <p>15 place Jules Guesde</p> 
+           <p>75006 Paris</p>
+           <br><br>
+           <p>Tel : +33 9 46 25 78 45</p>
+           <p>Mail : contact@mr-coffee.com</p>
+        </div>
+        </br>
+        </br>
+
+         <!-- Map -->
+        <div class="map">
+        <img class="contactmap" src="assets/carte_contact.png" alt="Google Map Location Image">
+        </div>
+        <br>
+    </main>
+    <br><br>
+
+    <!-- Footer -->
+    <footer>
+        <nav class="nav-footer">
+            <img class ="navimg" src="assets/full_logo_white.png" alt="Mr Coffee Logo">
+            <div class="footercontent">
+                <p class="footertext">Suivez nous sur les réseaux sociaux !</p>
+                <div class="imgblock">
+                    <img class ="footerimage" src="assets/logo_linkedin.png" alt="LinkedIn Logo">
+                    <img class ="footerimage" src="assets/logo_twitter.png" alt="Twitter Logo">
+                    <img class ="footerimage" src="assets/logo_facebook.png" alt="Facebook Logo">
+                </div>
+            </div>   
+        </nav>
+    </footer>
+
+</body>
+</html>
